@@ -1,0 +1,14 @@
+<template>
+  <StudentsList />
+  <CreateStudent />
+</template>
+
+<script>
+import StudentsList from "@/components/StudentsList.vue";
+import CreateStudent from "@/components/CreateStudent.vue";
+
+export default {
+  name: "Students",
+  components: { StudentsList, CreateStudent }
+}
+</script>
